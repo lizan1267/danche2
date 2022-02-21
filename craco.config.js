@@ -7,7 +7,7 @@ module.exports = {
       options: {
         lessLoaderOptions: {
           lessOptions: {
-            modifyVars: { '@primary-color': '#1DA57A' },
+            modifyVars: { '@primary-color': '#f9c700' },
             javascriptEnabled: true,
           },
         },
@@ -18,7 +18,7 @@ module.exports = {
       plugins:[['import',{
           libraryName:'antd',
           libraryDirectory:'es',
-          style:'css',
+          style:true,
       }]],
   }
 };
